@@ -1,0 +1,29 @@
+{
+  "name": "schedulify",
+  "version": "1.0.0",
+  "description": "Schedule tasks cross-platform through API or CLI.",
+  "main": "src/schedulify.js",
+  "bin": {
+    "schedulify": "help.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allnulled/schedulify.git"
+  },
+  "keywords": [
+    "scheduler",
+    "task"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allnulled/schedulify/issues"
+  },
+  "homepage": "https://github.com/allnulled/schedulify#readme"
+}
