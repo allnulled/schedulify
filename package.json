@@ -1,6 +1,6 @@
 {
   "name": "schedulify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Schedule tasks cross-platform through API or CLI.",
   "main": "src/schedulify.js",
   "bin": {
