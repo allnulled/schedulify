@@ -4,7 +4,7 @@
   "description": "Schedule tasks cross-platform through API or CLI.",
   "main": "src/schedulify.js",
   "bin": {
-    "schedulify": "help.js"
+    "schedulify": "bin/schedulify.js"
   },
   "directories": {
     "test": "test"
@@ -25,5 +25,12 @@
   "bugs": {
     "url": "https://github.com/allnulled/schedulify/issues"
   },
-  "homepage": "https://github.com/allnulled/schedulify#readme"
+  "homepage": "https://github.com/allnulled/schedulify#readme",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "dateformat": "^3.0.3",
+    "desknotifier": "^1.0.0",
+    "execute-command-sync": "^1.0.2",
+    "node-schedule": "^1.3.0"
+  }
 }
